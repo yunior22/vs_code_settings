@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Andromeda Italic",
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 28,
+    "editor.fontLigatures": true,
+    "typescriptHero.imports.insertSemicolons": false,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "workbench.editor.enablePreview": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true
+}
