@@ -1,20 +1,31 @@
 {
-    "workbench.colorTheme": "Andromeda Italic",
+    "workbench.colorTheme": "Cobalt2",
     "editor.fontFamily": "Operator Mono Lig",
     "editor.tabSize": 2,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.minimap.enabled": false,
     "editor.lineHeight": 28,
     "editor.fontLigatures": true,
     "typescriptHero.imports.insertSemicolons": false,
+    "vetur.format.enable": true,
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-expand-multiline"
+        },
+        "prettyhtml": {
+            "printWidth": 80,
+            "singleQuote": true,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
     "files.exclude": {
         "**/node_modules": true
     },
     "workbench.editor.enablePreview": false,
-    "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 120,
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
     "editor.formatOnSave": true,
     "workbench.startupEditor": "none",
     "emojisense.unicodeCompletionsEnabled": true,
