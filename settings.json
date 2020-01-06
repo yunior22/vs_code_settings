@@ -4,10 +4,11 @@
     "workbench.startupEditor": "none",
     "editor.fontFamily": "Operator Mono Lig",
     "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
+    "editor.fontSize": 13,
     "editor.lineHeight": 28,
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "typescriptHero.imports.insertSemicolons": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
