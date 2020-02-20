@@ -33,5 +33,6 @@
   "prettier.semi": false,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
-  "prettier.printWidth": 120
+  "prettier.printWidth": 120,
+  "workbench.iconTheme": "eq-material-theme-icons-palenight"
 }
