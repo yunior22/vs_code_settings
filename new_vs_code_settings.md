@@ -1,3 +1,4 @@
+```
 {
   "workbench.colorTheme": "Andromeda Italic",
   "workbench.editor.enablePreview": true,
@@ -37,3 +38,4 @@
   "material-icon-theme.folders.color": "#727272",
   "blade.format.enable": true
 }
+```
