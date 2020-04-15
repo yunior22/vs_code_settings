@@ -31,6 +31,8 @@
     "js-beautify-html": {
       "wrap_attributes": "force-expand-multiline"
     },
+    
+    /// Copy and paste this part to the bottom of package.json
     "prettier": {
       "semi": false,
       "printWidth": 120,
