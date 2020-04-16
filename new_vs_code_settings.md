@@ -13,13 +13,18 @@
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/vendor": true
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
   },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
   "prettier.semi": false,
+  "stylelint.enable": true,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
@@ -31,8 +36,6 @@
     "js-beautify-html": {
       "wrap_attributes": "force-expand-multiline"
     },
-    
-    /// Copy and paste this part to the bottom of package.json
     "prettier": {
       "semi": false,
       "printWidth": 120,
