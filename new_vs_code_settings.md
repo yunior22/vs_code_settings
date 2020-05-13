@@ -12,19 +12,32 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
   "files.exclude": {
     "**/node_modules": true,
     "**/vendor": true
   },
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
+    "django-html": "html"
   },
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "prettier.semi": false,
-  "stylelint.enable": true,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
