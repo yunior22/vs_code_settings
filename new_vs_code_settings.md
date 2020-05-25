@@ -1,4 +1,3 @@
-```
 {
   "workbench.colorTheme": "Andromeda Italic",
   "workbench.startupEditor": "none",
@@ -12,9 +11,10 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
+  "python.linting.enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
-  "python.linting.enabled": true,
+  "python.linting.flake8Args": ["--exclude", "manage.py", "settings.py", "__pycache__", "migrations"],
   "[python]": {
     "editor.tabSize": 4
   },
@@ -58,4 +58,3 @@
     }
   }
 }
-```
